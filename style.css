@@ -74,6 +74,17 @@ h1 {
 .post-date {
   color: #888;
   font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.medium-note {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+article header {
   margin-bottom: 2rem;
 }
 

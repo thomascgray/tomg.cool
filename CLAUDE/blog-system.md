@@ -29,6 +29,7 @@ drafts/*.md → scripts/build-blog.ts → blog/*.html + blog/index.html
 title: Post Title       # Required - posts without this are skipped
 description: A summary  # Optional - shown on index page
 date: 2025-01-03        # Optional - falls back to filename prefix
+mediumUrl: https://...  # Optional - shows "originally published on Medium" note
 ---
 ```
 

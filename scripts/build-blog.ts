@@ -57,6 +57,7 @@ async function build() {
     const slug = basename(file, ".md");
     const title = data.title;
     const description = data.description || "";
+    const mediumUrl = data.mediumUrl || "";
     // Get date from frontmatter or filename, format as YYYY-MM-DD string
     const rawDate = data.date || slug.slice(0, 10);
     const date =
@@ -67,11 +68,16 @@ async function build() {
     posts.push({ title, slug, date, description });
 
     // Build post content with header
+    const mediumNote = mediumUrl
+      ? `<p class="medium-note">This article was originally published on <a href="${mediumUrl}" target="_blank">Medium</a>.</p>`
+      : "";
+
     const postContent = `
         <article>
           <header>
             <h1>${title}</h1>
             <p class="post-date">${formatDate(date)}</p>
+            ${mediumNote}
           </header>
           ${html}
         </article>`;

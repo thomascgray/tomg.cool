@@ -42,8 +42,10 @@ Converts Markdown files to static HTML:
 Frontmatter format:
 ```yaml
 ---
-title: Post Title
-date: 2025-01-03
+title: Post Title       # Required
+description: A summary  # Optional - shown on index page
+date: 2025-01-03        # Optional - falls back to filename prefix
+mediumUrl: https://...  # Optional - shows "originally published on Medium" note
 ---
 ```
 
