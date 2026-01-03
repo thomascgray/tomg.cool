@@ -8,17 +8,31 @@ const OUT_DIR = "blog";
 const TEMPLATE_PATH = "blog_template.html";
 
 const MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
 function ordinal(n: number): string {
   if (n > 3 && n < 21) return n + "th";
   switch (n % 10) {
-    case 1: return n + "st";
-    case 2: return n + "nd";
-    case 3: return n + "rd";
-    default: return n + "th";
+    case 1:
+      return n + "st";
+    case 2:
+      return n + "nd";
+    case 3:
+      return n + "rd";
+    default:
+      return n + "th";
   }
 }
 
@@ -69,8 +83,10 @@ async function build() {
 
     // Build post content with header
     const mediumNote = mediumUrl
-      ? `<p class="medium-note">This article was originally published on <a href="${mediumUrl}" target="_blank">Medium</a>.</p>`
+      ? `<p class="medium-note">This article was originally published on <a href="${mediumUrl}" target="_blank">Medium</a> and migrated here by cobbling together different tools. As such it might be missing some styling, text, images, etc. Sorry!</p>`
       : "";
+
+    const breadcrumbs = `<a href="/">tomg.cool</a> <span class="separator">&gt;</span> <a href="/blog/">blog</a> <span class="separator">&gt;</span> <span class="current">${title}</span>`;
 
     const postContent = `
         <article>
@@ -84,6 +100,7 @@ async function build() {
 
     const output = template
       .replace(/\{\{title\}\}/g, title)
+      .replace("{{breadcrumbs}}", breadcrumbs)
       .replace("{{content}}", postContent);
 
     const outFile = join(OUT_DIR, slug + ".html");
@@ -107,21 +124,38 @@ function buildIndex(posts: PostMeta[], template: string): string {
       (p) => `
           <li>
             <a href="/blog/${p.slug}.html">${p.title}</a>
-            ${p.description ? `<p class="post-description">${p.description}</p>` : ""}
+            ${
+              p.description
+                ? `<p class="post-description">${p.description}</p>`
+                : ""
+            }
             <p class="post-date">${formatDate(p.date)}</p>
           </li>`
     )
     .join("");
 
+  const breadcrumbs = `<a href="/">tomg.cool</a> <span class="separator">&gt;</span> <a href="/blog/">blog</a>`;
+
+  const articleCount = posts.length;
+  const earliestDate =
+    posts.length > 0 ? formatDate(posts[posts.length - 1].date) : "";
+  const countText =
+    articleCount === 1
+      ? `1 thing written since ${earliestDate}`
+      : `i've written <bold>${articleCount}</bold> things since <bold>${earliestDate}</bold>`;
+
   const content = `
         <div class="blog-index">
-          <h1>Blog</h1>
+          <h1>tomg.cool's blog</h1>
+          <p class="blog-subtitle">random stuff i've seen fit to write something up about over the years</p>
+          <hr />
           <ul class="post-list">${listHtml}
           </ul>
         </div>`;
 
   return template
     .replace(/\{\{title\}\}/g, "Blog")
+    .replace("{{breadcrumbs}}", breadcrumbs)
     .replace("{{content}}", content);
 }
 

@@ -15,9 +15,19 @@
   <body>
     <nav>
       <div class="container">
-        <a href="/">Back to tomg.cool</a>
+        <div class="breadcrumbs">{{breadcrumbs}}</div>
       </div>
+      <div class="progress-bar"></div>
     </nav>
+    <script>
+      const progressBar = document.querySelector('.progress-bar');
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = progress + '%';
+      });
+    </script>
     <main>
       <div class="container">{{content}}</div>
     </main>

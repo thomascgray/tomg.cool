@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buccaneers & Brine — An RPG Game Design Post-Mortem - TOMG DOT COOL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="breadcrumbs"><a href="/">tomg.cool</a> <span class="separator">&gt;</span> <a href="/blog/">blog</a> <span class="separator">&gt;</span> <span class="current">Buccaneers & Brine — An RPG Game Design Post-Mortem</span></div>
+      </div>
+      <div class="progress-bar"></div>
+    </nav>
+    <script>
+      const progressBar = document.querySelector('.progress-bar');
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = progress + '%';
+      });
+    </script>
+    <main>
+      <div class="container">
+        <article>
+          <header>
+            <h1>Buccaneers & Brine — An RPG Game Design Post-Mortem</h1>
+            <p class="post-date">19th January 2021</p>
+            <p class="medium-note">This article was originally published on <a href="https://medium.com/@tom.c.gray/buccaneers-brine-an-rpg-game-design-post-mortem-25b24236d654" target="_blank">Medium</a> and migrated here by cobbling together different tools. As such it might be missing some styling, text, images, etc. Sorry!</p>
+          </header>
+          <p><em>Buccaneers &amp; Brine is a very short RPG about being pirates and doing swashbuckling, pirate-y things. I wrote it to take a break from other projects, and am thrilled that (at the time of writing) its had nearly 200 views and just over 100 downloads, with zero marketing from myself. The full rules are available on the</em> <a href="https://thunderchild15.itch.io/buccaneers-and-brine"><em>Buccaneers &amp; Brine Itch.io</em></a> <em>page if you want to check them out.</em></p>
+<p><em>EDIT: Further discussion available on</em> <a href="https://www.reddit.com/r/RPGdesign/comments/l177yr/buccaneers_brine_an_rpg_game_design_postmortem/"><em>the /r/RPGdesign thread</em></a> <em>— check it out afterwards!</em></p>
+<p>I am a huge believer in people deconstructing their own projects and speaking about why they made the choices they did. I think its an invaluable way for other creators to have their own &quot;ooh, I never thought of it like that!&quot; moments, and I know for a fact some of my own best inspiration has come from off-hand remarks and comments from designers I follow and admire.</p>
+<p>Now that I&#39;ve had some distance from the writing and editing of B&amp;B, I wanted to talk about why I made the choices I did, what I hope those mechanics result in, and the ideas behind the various parts. Hopefully this will give you some of your own inspiration too!</p>
+<p>I&#39;m going to go through the various sections of the rules, roughly in order, so feel free to skip around.</p>
+<p><em>Note: I&#39;ve never written one of these before, so apologies if its all over the place!</em></p>
+<h2>Simple, Narrative Choices In Character Creation</h2>
+<p>This one is sort of obvious — I just prefer narrative RPGs. If I&#39;m sitting in a circle with my mates, playing pretend, telling each other made up stories, the last thing I want to be doing is tracking numbers and stats and explaining tons and tons of layered rules.</p>
+<p>The explaining of rules is actually a significant point in itself. Introducing people that have never played RPGs before, explaining &quot;hey, we&#39;re gonna be pretend pirates fighting skeletons and stuff&quot;, for Buccaneers &amp; Brine I explicitly want them buying into the fiction of the game — not thinking about nitty gritty boring details. We&#39;re telling a shared story; that is <strong><em>in and of itself</em></strong> the activity we&#39;re doing together. Focus on the fiction, not the numbers.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pGnuJwIfHssxnQfEf6J2wQ.png" alt="A Nervous Giant who's Always Drunk is, canonically, an author stand in"></p>
+<p>So, character creation — I deliberately get the players to make <strong>three simple choices (their temperament, appearance and cliché) instead of one, complex choice (a character class, for example).</strong></p>
+<p>Firstly, because being a Laidback, Brutish pirate with A Lovely Hat is <strong>more than enough for this game to get going, in terms of seriousness and tone.</strong></p>
+<p>Secondly, <strong>it&#39;s super flavourful.</strong> If you were choosing between Fighter / Rogue / Wizard, well — Wizard sounds exciting, Fighter sounds kind of &quot;meh&quot;, and what the hell is a Rogue? But making a pirate who is <strong>Affectionate but Grizzled</strong>, or <strong>Nervous yet Brutish,</strong> or <strong>Menacing and Lithe?</strong> I challenge anyone to <em>not</em> get an immediate mental image of those scoundrels. Make the players buy into the fiction of the game.</p>
+<p>And thirdly, <strong>it&#39;s to avoid decision paralysis.</strong> By offering a list, and then giving the escape hatch (the &quot;choose your own&quot; option) at the <strong><em>end</em></strong>, each player will either see something they like and pick it, or will see the options, know what they <em>don&#39;t</em> want, and write down something else.</p>
+<p>For example, if you&#39;re playing D&amp;D, saying to a player:</p>
+<blockquote>
+<p>&quot;OK, you can be someone who fights things, someone who casts spells, or someone who sneaks around. What do you want to be?&quot;</p>
+</blockquote>
+<p>will often cause the player to say &quot;ooh, uhm, I&#39;m not sure…&quot;; but if you <strong><em>instead</em></strong> said:</p>
+<blockquote>
+<p>&quot;OK, this game has heroes who fight, heroes who cast spells, or heroes who sneak around. I think you&#39;d make an <strong>awesome</strong> wizard, how does that sound?&quot;</p>
+</blockquote>
+<p>I guarantee you the player will say either &quot;Yes, sounds amazing!&quot; or &quot;Are you insane? I obviously want to sneak around!&quot;</p>
+<h2>Harm, Gear &amp; Treasure</h2>
+<p><strong>Harm</strong> exists because we need some kind of &quot;oof, that hurt&quot; tracker. Pirates do dangerous things, and HP seemed too &quot;clinical&quot; and overloaded a term. The last thing I wanted was players being reminded of video games, where each character has a giant pool of Hit Points.</p>
+<p>I&#39;m wasn&#39;t interested in the complexity of different characters having different amounts of punishment they can take, so a straightforward track seemed the simplest.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0cIHkVXWIY-BSLlSsdLH0w.png" alt="Getting hurt makes you worse at doing things — this is true for the game as well"></p>
+<p>It&#39;s immediately clear that there are &quot;stages&quot; to getting hurt, then I have some minor explanatory text telling the pirates that getting hurt will make their ability dice go down in size. This is clear and straight forward, and again — by having a Mechanical change (increase in Harm) cause a Fictional outcome (you&#39;re now worse at doing something) we&#39;re <strong>further tying the players into the fiction of the game.</strong></p>
+<p><strong>Gear</strong> is even simpler — by this point I&#39;m banking on the players being on board with &quot;the fiction comes first&quot; style of game that Buccaneers &amp; Brine is:</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xBY0GF5fD2ZbViex3Qd5RA.png" alt="I beg you, please, choose the Bewitched Grappling Hook"></p>
+<p>I give a bit of helper text for the weapons, mostly for the sake of the GM rulings (and to give some individuality to the choices) and then I pile on yet <em>more</em> flavour with the &quot;starting trinket&quot;. So by now each player is hopefully saying something like:</p>
+<blockquote>
+<p>Haha! I&#39;m Menacing and Plump, plus I&#39;ve got a Musket and a Haunted Compass! Avast, my hearties!</p>
+</blockquote>
+<p>Before anyone asks, yes — the limit of 6 items per character is entirely arbitrary. Just in case it ever comes up in play, its one less thing for the GM to think about.</p>
+<p><strong>Treasure</strong> is there just because I wanted some kind of currency in the game (they&#39;re playing as pirates, after all). Honestly, the game could probably do without it. No other mechanic ties into it. I guess it is useful for a GM, as a carrot to dangle in front of players and to prompt responses from the characters.</p>
+<h2>Abilities &amp; The Resolution Mechanic</h2>
+<p>OK, there&#39;s a couple of points I want to cover here:</p>
+<ol>
+<li>The actual &quot;roll 2 dice, count 4+&#39;s, ternary outcomes&quot; reasoning.</li>
+<li>Abilities are dice instead of numbers.</li>
+<li>The idea behind the &quot;highest on Ability die, lowest on Danger die.&quot; results.</li>
+</ol>
+<h3>Roll Two Dice, Count 4 Pluses, Check Against Ternary Results</h3>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*59b_ZAEgWP6hUltxCHgOgQ.png" alt="Getting things done (on a 4 or more)"></p>
+<p>The ternary output should be no surprise to anyone who&#39;s had experience with Dungeon World of course. It&#39;s a straight forward concept. Basically, telling the player &quot;you succeed&quot; or &quot;you fail&quot; is <strong>boring</strong>, and by giving a middle ground <strong>(&quot;your plan worked, but…&quot;)</strong> plus some flavour text (the &quot;unexpected aftermath&quot; etc. bits) I&#39;m hoping that the GM and the players together will be sufficiently encouraged to <a href="https://www.google.com/search?q=rpg+failing+forward">fail forward</a> and lead themselves into fun and interesting scenarios.</p>
+<p>Rolling two dice and counting 4+s gives the players a reasonable chance of hitting the middle ground success for any given action. They get bonuses if they are prepared or have items, etc. and you only need a single 4+ in order to get that middle ground pass.</p>
+<p>The actual decision to have them roll two dice ties into my next point, which is…</p>
+<h3>Abilities are dice instead of numbers</h3>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cAPARuZWGOZdh0cJwMFkSQ.png" alt="Pirates don't need Charisma, obviously"></p>
+<p>This ties back into my &quot;numbers are bad, actually&quot; point from the start. Once the players know the two absolute fundamental mechanics:</p>
+<ul>
+<li>you&#39;re going to be rolling dice for things</li>
+<li>higher numbers are better</li>
+</ul>
+<p>then telling them that their abilities are themselves represented as dice sizes and not numbers gives us multiple benefits:</p>
+<ul>
+<li>they don&#39;t have to keep track of numbers, obviously.</li>
+<li>players get an explicit &quot;8 sides is better than 4 sides&quot;, instead of &quot;I know 8 is better than 4, but, how much better? Where does it top out?&quot;</li>
+<li>players have an implicit knowledge that there are only 3 possible sizes for each ability score (less possibilities means a simpler game).</li>
+</ul>
+<p>Finally, because each ability is a die itself, when it comes time to roll for a resolution, <strong>we&#39;re reducing the amount of math needed. Specifically, there is no &quot;add your ability modifier&quot; step.</strong></p>
+<p>The abilities themselves are nothing special — they&#39;re just some pirate-y verbs I came up with. The words themselves give an indication to the players what sort of things they&#39;ll be doing in the game (&quot;ooh, Swashbuckling!&quot;) and hopefully cover most things that they could get up to.</p>
+<h3>The Danger Die &amp; Highest on Ability Die, Lowest On Danger Die</h3>
+<p>Right, so, the 2nd die that you roll. I wanted to make sure players always had a least <em>somewhat</em> of a chance of getting at least one 4 plus — a d6 with a +1 with a friend helping seems fairly dangerous, but doable — perfect for a silly pirate game.</p>
+<p>The actual &quot;roll two dice, count 4 pluses&quot; isn&#39;t exactly original or massively interesting, to be honest. It <em>does</em> have a nice sort of &quot;obvious&quot; logic to itself though — <strong>if you&#39;re good at the thing, you&#39;re likely going to get at least one 4 plus on a d6+d8, etc.</strong></p>
+<p>What&#39;s interesting is the next bit of rules:</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:950/format:webp/1*L_vqAWzKtI-39XQcMw1n7w.png" alt="Fictional outcomes = players bought into the story"></p>
+<p>So what I&#39;m doing here is packaging Mechanical and Fictional things into each result, basically for the sake of <strong>adding interesting outcomes to the game.</strong> A character may get 1 Pass on a check, but oh no — if you roll 1 on the Danger die, you still take some Harm <em>and</em> you get an <strong>in-game, narrative consequence to deal with too.</strong></p>
+<p>On top of all that, because a player gets the ability benefit on the <em>highest face of the Ability die itself</em>, not just a 6+ or something, rolling a smaller Ability die actually increases the likelihood of a player getting to ask &quot;What is hidden here?!&quot;. <strong>Again — interesting choices, interesting decisions.</strong></p>
+<p><em>And, of course, once again shouting out to Dungeon World for the inspiration on the fictional outcomes of these rolls.</em></p>
+<h2>The Ship</h2>
+<p>The Ship that the characters sail around in has an entire section to itself, but is honestly extremely simple, and mostly there for flavour. Hey, it&#39;s a pirate game — I couldn&#39;t not talk about the ship.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HMTRst3O7JJoyqgh_ZN4oQ.png" alt="I apologise in advance for your table making jokes about The Salty Maid"></p>
+<p>Once again, the choices the players make here are entirely about adding to the flavour and the fiction.</p>
+<p>What does &quot;Unusual Sails&quot; actually mean? <strong>Who the hell knows</strong> — the point is, the players will <em>immediately</em> think up some fiction for what it means, relative to the rest of the decisions they&#39;ve already made.</p>
+<p>The next section mostly exists to cover possible questions from players, and pre-empt any awkward conversations about why there are only 3 or 4 pirates on a giant pirate ship.</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Mrjoo_sZo-dUps9LarASeQ.png" alt="Notice the lack of any mechanics regarding who's captain. Why? Because we don't need them! The ship belongs to everyone, don't worry about it"></p>
+<p>Getting the players to roll for how many crew there are feels kind of nice; if they roll really low, then, where the hell are all the crew? <strong>Who cares, it adds to the fiction!</strong></p>
+<p>The 100 units of Treasure and 30 units of Cargo is mostly for the GM. Useful carrots to dangle in front of players (e.g &quot;you need to deliver 15 Cargo to Golden Sands Bay!&quot;) and to make the players buy into the fiction a little more.</p>
+<p>The final section covers shenanigans that might actually happen during the sailing of the ship:</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*eDRIgpq5bzrcYvipdrd68A.png" alt=""and the like" gives this a lot of mileage"></p>
+<p>I&#39;m basically giving some examples of things that players might want to do (in case a player is stuck with &quot;I don&#39;t know, what is there to do?&quot;)</p>
+<p>The final part of kind of interesting; basically, I&#39;m telling you that when all the characters are doing something together &quot;as a crew&quot; (e.g ship things) then all the players should roll at the same time, and <strong>the GM should interpret and narrate the result all at once.</strong></p>
+<p>I&#39;m hoping this gives a feel of <strong>montages of action</strong> taking place. One player is swinging on the mast, another is firing a cannon, another is spinning the wheel. I want these sequences to feel like <strong>everything is happening all at the same time.</strong> I dislike how some turn based combat/action systems (I&#39;m looking at you, D&amp;D) can give this sense of &quot;so what, the troll just stands there and waits as we take turns to hit it?&quot; Hopefully this little ruling helps alleviate this problem.</p>
+<h2>Running The Game</h2>
+<p>Giving a full, comprehensive DM section felt really out of scope for a game like Buccaneers &amp; Brine and my own, personal writing ability. I elected instead to offer a more generic &quot;advice&quot; section, with at least my own thoughts (taken from years of reading great advice by writers far better than myself) condensed down into chunks.</p>
+<p>The only thing I feel is really worth pointing out in this section is my emphasis on asking players questions, and using those answers in the fiction. Like I&#39;ve said in this article (multiple times now!); <strong>the game does everything it can to get the players to buy into the world that they&#39;re all playing in.</strong></p>
+<p>Other than that, my advice to fudge the rules as you need is a cheeky &quot;this game is very short, sorry not sorry&quot; escape hatch I gave myself. But again, hopefully by this point the rest of the rules have set enough of a tone that the nitty gritty details should fall into place, or even better, completely fade into the background.</p>
+<h2>Inspiration Lists &amp; Tables</h2>
+<p>Some very typical spark tables, as found in all good GM sections. Hopefully enough for someone to make a small scenario with, and silly enough that everyone understands what level of seriousness to tackle this game with. Hint: not very serious.</p>
+<p>I&#39;m particularly proud of the <strong>Crab Men Assassins</strong> and the <strong>Dread Inducing Music Box.</strong></p>
+<hr>
+<p><em>And that&#39;s that! If you made it to the end, thanks so much for reading. It was fun to look back at my own writing and rulings and think about why I made the decisions I did.</em></p>
+<p><em>I massively appreciate any comments and feedback, and would love to hear all thoughts (good or bad!) about Buccaneers &amp; Brine, and/or this article itself — reach out to me</em> <a href="https://twitter.com/tmcgry"><em>on Twitter</em></a><em>!</em></p>
+<p><em>I hope it was an interesting dive, and for anyone thinking about writing their own game —</em> <strong><em>do it! Do it now! Writing RPGs is the absolute best.</em></strong></p>
+<p><em>If you like the sound of Buccaneers &amp; Brine, please do</em> <a href="https://thunderchild15.itch.io/buccaneers-and-brine"><em>give it a download</em></a><em>, or</em> <a href="https://thunderchild15.itch.io/"><em>take a look at my other RPGs</em></a><em>.</em></p>
+
+        </article></div>
+    </main>
+  </body>
+</html>

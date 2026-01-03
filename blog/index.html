@@ -15,23 +15,65 @@
   <body>
     <nav>
       <div class="container">
-        <a href="/">Back to tomg.cool</a>
+        <div class="breadcrumbs"><a href="/">tomg.cool</a> <span class="separator">&gt;</span> <a href="/blog/">blog</a></div>
       </div>
+      <div class="progress-bar"></div>
     </nav>
+    <script>
+      const progressBar = document.querySelector('.progress-bar');
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = progress + '%';
+      });
+    </script>
     <main>
       <div class="container">
         <div class="blog-index">
-          <h1>Blog</h1>
+          <h1>tomg.cool's blog</h1>
+          <p class="blog-subtitle">random stuff i've seen fit to write something up about over the years</p>
+          <hr />
           <ul class="post-list">
           <li>
-            <a href="/blog/2025-01-03-so-you-want-to-play-dnd-step-1-intro-and-races.html">So You Want To Play D&D: Step 1 - Intro and Races</a>
-            <p class="post-description">A beginner's guide to choosing your race in Dungeons & Dragons, from Dwarves to Dragonborn.</p>
-            <p class="post-date">3rd January 2025</p>
+            <a href="/blog/2021-05-03-thousand-year-old-vampire-actual-play.html">An actual-play of Thousand Year Old Vampire</a>
+            <p class="post-description">6K'ish words from a vampire's diary — a full solo playthrough of the journaling RPG.</p>
+            <p class="post-date">3rd May 2021</p>
           </li>
           <li>
-            <a href="/blog/2025-01-03-test-document.html">Test Document</a>
-            <p class="post-description">A test post to make sure everything is working properly.</p>
-            <p class="post-date">3rd January 2025</p>
+            <a href="/blog/2021-01-19-buccaneers-and-brine-post-mortem.html">Buccaneers & Brine — An RPG Game Design Post-Mortem</a>
+            <p class="post-description">A deep dive into the design decisions behind a short, narrative-focused pirate RPG.</p>
+            <p class="post-date">19th January 2021</p>
+          </li>
+          <li>
+            <a href="/blog/2020-08-23-the-quiet-year-solo-playthrough-part-2.html">The Quiet Year — Solo Playthrough and Journal Part 2</a>
+            <p class="post-description">Spring continues as mysterious ships arrive and unknown predators stalk the night.</p>
+            <p class="post-date">23rd August 2020</p>
+          </li>
+          <li>
+            <a href="/blog/2020-08-22-the-quiet-year-solo-playthrough-part-1.html">The Quiet Year — Solo Playthrough and Journal Part 1</a>
+            <p class="post-description">A map-based post-apocalyptic storytelling game, played solo and documented week by week.</p>
+            <p class="post-date">22nd August 2020</p>
+          </li>
+          <li>
+            <a href="/blog/2019-02-26-dnd-5e-spellcasting-rules-explained.html">D&D 5E Spellcasting Rules Explained In A Way That Actually Makes F**king Sense</a>
+            <p class="post-description">Spell Slots, preparing spells, learning spells, and cantrips - all explained without wanting to tear your hair out.</p>
+            <p class="post-date">26th February 2019</p>
+          </li>
+          <li>
+            <a href="/blog/2018-08-14-so-you-want-to-play-dnd-step-3-personality-background-and-conclusion.html">So You Want To Play D&D: Step 3 - Personality, Background, and Conclusion</a>
+            <p class="post-description">AKA this isn't a video game, idiot</p>
+            <p class="post-date">14th August 2018</p>
+          </li>
+          <li>
+            <a href="/blog/2018-08-10-so-you-want-to-play-dnd-step-2-classes.html">So You Want To Play D&D: Step 2 - Classes</a>
+            <p class="post-description">or: How I Learned to Stop Worrying and Pick a Job</p>
+            <p class="post-date">10th August 2018</p>
+          </li>
+          <li>
+            <a href="/blog/2018-08-08-so-you-want-to-play-dnd-step-1-intro-and-races.html">So You Want To Play D&D: Step 1 - Intro and Races</a>
+            <p class="post-description">A beginner's guide to choosing your race in Dungeons & Dragons, from Dwarves to Dragonborn.</p>
+            <p class="post-date">8th August 2018</p>
           </li>
           </ul>
         </div></div>

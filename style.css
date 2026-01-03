@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
   line-height: 1.7;
   color: #2c3e50;
   background-color: #fafafa;
@@ -25,12 +26,22 @@ body {
 
 /* Navigation */
 nav {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #e74c3c;
+  transition: width 0.1s ease-out;
 }
 
 nav .container {
@@ -40,15 +51,28 @@ nav .container {
   padding-bottom: 0;
 }
 
-nav a {
-  color: #666;
+.breadcrumbs {
+  font-size: 0.9rem;
+}
+
+.breadcrumbs a {
+  color: #e74c3c;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
-nav a:hover {
-  color: #e74c3c;
+.breadcrumbs a:hover {
+  color: #c0392b;
+}
+
+.breadcrumbs .separator {
+  color: #999;
+  margin: 0 0.5rem;
+}
+
+.breadcrumbs .current {
+  color: #666;
 }
 
 /* Main content */
@@ -121,7 +145,8 @@ a:hover {
 }
 
 /* Lists */
-ul, ol {
+ul,
+ol {
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;
 }
@@ -181,7 +206,19 @@ hr {
 
 /* Blog index */
 .blog-index h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-stats {
+  color: #888;
+  font-size: 0.8rem;
+  margin-bottom: 2.5rem;
 }
 
 .post-list {
@@ -226,4 +263,8 @@ hr {
   display: inline-block;
   margin-bottom: 2rem;
   font-size: 0.9rem;
+}
+
+bold {
+  font-weight: bold;
 }
