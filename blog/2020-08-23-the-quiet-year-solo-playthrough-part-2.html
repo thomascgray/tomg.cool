@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Quiet Year — Solo Playthrough and Journal Part 2 - TOMG DOT COOL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +27,22 @@
         const docHeight = document.documentElement.scrollHeight - window.innerHeight;
         const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
         progressBar.style.width = progress + '%';
+      });
+
+      // Make images clickable to open full size in new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('article img').forEach(img => {
+          if (img.closest('a')) return; // Skip if already inside a link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.target = '_blank';
+          link.className = 'image-link';
+          // If image is in a figure, wrap the figure; otherwise wrap the image
+          const figure = img.closest('figure');
+          const target = figure || img;
+          target.parentElement.insertBefore(link, target);
+          link.appendChild(target);
+        });
       });
     </script>
     <main>
@@ -72,7 +89,7 @@
 <hr>
 <p>Thanks for reading! I&#39;m having a ton of fun with this, The Quiet Year is proving to be as great as I thought it&#39;d be.</p>
 <p>Summer next! I&#39;m genuinely curious as to whats in store for our community as we head further into the year…</p>
-<p><em>This was written and (badly) drawn by me, <a href="https://twitter.com/tmcgry">@tmcgry</a></em></p>
+<p><em>This was written and (badly) drawn by me, <a href="https://bsky.app/profile/tombola.bsky.social">@tombola.bsky.social</a></em></p>
 
         </article></div>
     </main>

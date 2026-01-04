@@ -189,11 +189,73 @@ blockquote {
   font-style: italic;
 }
 
-/* Images */
+/* Images - breakout style (wider than text column) */
 img {
-  max-width: 100%;
+  display: block;
+  max-width: min(100vw - 3rem, 900px);
+  width: auto;
   height: auto;
   border-radius: 8px;
+  margin: 1.5rem auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Figures with captions */
+figure {
+  margin: 1.5rem 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: min(100vw - 3rem, 900px);
+  width: fit-content;
+}
+
+figure img {
+  position: static;
+  left: auto;
+  transform: none;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Clickable image links */
+a.image-link {
+  display: block;
+  text-decoration: none;
+  border: none;
+  cursor: zoom-in;
+}
+
+a.image-link img {
+  transition: opacity 0.2s;
+}
+
+a.image-link:hover img {
+  opacity: 0.9;
+}
+
+/* When figure is wrapped in a link, the link handles the breakout positioning */
+a.image-link:has(figure) {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  max-width: min(100vw - 3rem, 900px);
+}
+
+a.image-link figure {
+  position: static;
+  left: auto;
+  transform: none;
   margin: 1.5rem 0;
 }
 

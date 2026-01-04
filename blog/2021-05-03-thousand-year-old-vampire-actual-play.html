@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>An actual-play of Thousand Year Old Vampire - TOMG DOT COOL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +27,22 @@
         const docHeight = document.documentElement.scrollHeight - window.innerHeight;
         const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
         progressBar.style.width = progress + '%';
+      });
+
+      // Make images clickable to open full size in new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('article img').forEach(img => {
+          if (img.closest('a')) return; // Skip if already inside a link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.target = '_blank';
+          link.className = 'image-link';
+          // If image is in a figure, wrap the figure; otherwise wrap the image
+          const figure = img.closest('figure');
+          const target = figure || img;
+          target.parentElement.insertBefore(link, target);
+          link.appendChild(target);
+        });
       });
     </script>
     <main>
@@ -237,7 +254,7 @@ I have lost my diary.</em></p>
 <p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tk0oVkQf8_rHJKizxZPFew.png" alt="captionless image"></p>
 <p>And there we have it! I absolutely loved playing TYOV, the story has genuinely stuck with me for days. I definitely messed up some bits, answered prompts without thinking about my Skills and Resources, etc. But overall, yeah — a resounding success.</p>
 <p>Make sure to follow TOYV&#39;s author, Tim Hutchings, on Twitter at <a href="https://twitter.com/TimHutchingsFTW">@TimHutchingsFTW</a>. You can (and should!) buy TYOV at <a href="https://thousandyearoldvampire.com/">https://thousandyearoldvampire.com/</a>.</p>
-<p>You can follow me at <a href="https://twitter.com/tmcgry">@tmcgry</a>. I&#39;m usually posting about code I write, RPGs I write and play, and any other random nonsense I feel a need to talk about.</p>
+<p>You can follow me at <a href="https://bsky.app/profile/tombola.bsky.social">@tombola.bsky.social</a>. I&#39;m usually posting about code I write, RPGs I write and play, and any other random nonsense I feel a need to talk about.</p>
 
         </article></div>
     </main>

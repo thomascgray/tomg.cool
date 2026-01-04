@@ -3,6 +3,20 @@ import { join, basename } from "path";
 import { marked } from "marked";
 import matter from "gray-matter";
 
+// Custom renderer: images with titles become <figure> with <figcaption>
+const renderer = new marked.Renderer();
+renderer.image = ({ href, title, text }) => {
+  if (title) {
+    return `<figure>
+  <img src="${href}" alt="${text}">
+  <figcaption>${title}</figcaption>
+</figure>`;
+  }
+  return `<img src="${href}" alt="${text}">`;
+};
+
+marked.use({ renderer });
+
 const DRAFTS_DIR = "drafts";
 const OUT_DIR = "blog";
 const TEMPLATE_PATH = "blog_template.html";

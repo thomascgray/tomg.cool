@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>So You Want To Play D&D: Step 2 - Classes - TOMG DOT COOL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,6 +28,22 @@
         const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
         progressBar.style.width = progress + '%';
       });
+
+      // Make images clickable to open full size in new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('article img').forEach(img => {
+          if (img.closest('a')) return; // Skip if already inside a link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.target = '_blank';
+          link.className = 'image-link';
+          // If image is in a figure, wrap the figure; otherwise wrap the image
+          const figure = img.closest('figure');
+          const target = figure || img;
+          target.parentElement.insertBefore(link, target);
+          link.appendChild(target);
+        });
+      });
     </script>
     <main>
       <div class="container">
@@ -41,71 +58,86 @@
 <p>While your race gives you your core abilities, traits, and other things relating to what you are physically, your class is the real meat of <strong><em>who</em> and <em>what</em> you are</strong> — it decides what <strong>weapons you wield</strong>, what <strong>armour you wear</strong>, your <strong>skills, specialities, and more.</strong></p>
 <p>Are you a raging warrior, <strong><em>who attacks recklessly and without thought?</em></strong> Perhaps a scholar, <strong><em>gaining power and magic from your libraries of books?</em></strong> Maybe you just wanna <strong><em>avoid all responsibilities and go live in the woods?</em></strong> <em>Cool, but you can do that in the game too.</em></p>
 <h2>Barbarian</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*8UqiwrGRm-36Ke0iYSyYFw.jpeg" alt="You would though, wouldn't you. Oh yes."></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*8UqiwrGRm-36Ke0iYSyYFw.jpeg" alt="You would though, wouldn't you. Oh yes.">
+  <figcaption>You would though, wouldn't you. Oh yes.</figcaption>
+</figure></p>
 <p><em>It&#39;s in the name, people.</em></p>
 <p>Fighting, but <strong>without the discipline.</strong> Fuelled by <strong>rage itself.</strong> Beefy and strong, <strong><em>smash things in the face, ask the questions later.</em></strong></p>
 <p>High risk/reward class — you <strong>do lots of damage</strong>, but you <strong>wear little armour</strong> and are <strong>constantly screaming at things.</strong> Can go into a <strong><em>rage</em></strong> during combat, which causes you to do more damage and are more resistant to damage too.</p>
 <p><strong>Thematically, basically your standard, uncivilised &quot;wild person&quot;.</strong></p>
 <h2>Bard</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*4HYfG_2R5yEhH5yV84VE4w.jpeg" alt="Bards have long been considered a "joke", or at least "not be taken seriously". Can someone explain to me whats not serious about making people explode with a rad mandolin solo?"></p>
+<p>![Bards have long been considered a &quot;joke&quot;, or at least &quot;not be taken seriously&quot;. Can someone explain to me whats not serious about making people explode with a rad mandolin solo?](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*4HYfG_2R5yEhH5yV84VE4w.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*4HYfG_2R5yEhH5yV84VE4w.jpeg</a> &quot;Bards have long been considered a &quot;joke&quot;, or at least &quot;not be taken seriously&quot;. Can someone explain to me whats not serious about making people explode with a rad mandolin solo?&quot;)</p>
 <p>Charismatic, persuasive, manipulative, inspiring. <strong>Bards wield</strong> <strong>songs, music and poetry</strong> <strong>like others wield swords</strong>. Good support class, <strong>jack of all trades</strong>. Can fight a bit, heal a bit, do some spells, sneak around, but isn&#39;t as good at any one of those single things as a Fighter, Wizard or Rogue.</p>
 <p>But what they can do is <strong><em>manipulate the battlefield</em></strong> via their <strong><em>magical art</em></strong>.</p>
 <p>They have access to spells that can distract their foes, hypnotise their targets, bolster their allies or <strong><em>just play a flute solo so amazing your friend&#39;s next attack makes her enemy melt.</em></strong></p>
 <p>Look, what I&#39;m saying is, can you imagine a whole party made out of <em>just bards?</em> You&#39;d be a <strong><em>fucking band!</em></strong></p>
 <h2>Cleric</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*0nZCON_0XXE_MOSQL01oHQ.jpeg" alt="Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ."></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*0nZCON_0XXE_MOSQL01oHQ.jpeg" alt="Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ.">
+  <figcaption>Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ.</figcaption>
+</figure></p>
 <p>Without a doubt, the best support class in the game. A man of the cloth, whose main concern is <strong>keeping his friends alive as best he can</strong>.</p>
 <p>A cleric is basically a &quot;<strong><em>warrior priest</em></strong>&quot;, with a focus on <strong>helping others</strong>.</p>
 <p>Heals others really well, using divine powers. Deals an <em>OK</em> amount of damage, but is much more suited to being a &quot;damage sponge&quot;, taking hits for others. Lives on the frontlines of battle — <strong><em>think of clerics as god-fuelled combat medics.</em></strong></p>
 <p>Can also choose which god or &quot;aspect of nature&quot; you want to be a priest <em>of</em> — each granting <strong>different powers and spells.</strong></p>
 <h2>Druid</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7fXc7hCYKdm87XyDflXY1A.jpeg" alt=""I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins" — Druid players"></p>
+<p>![&quot;I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins&quot; — Druid players](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7fXc7hCYKdm87XyDflXY1A.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7fXc7hCYKdm87XyDflXY1A.jpeg</a> &quot;&quot;I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins&quot; — Druid players&quot;)</p>
 <p>Spellcasters who are one with nature. Can channel the <strong>powers of nature, wildlife, the trees, rivers and earth</strong> to help their friends or smash their enemies to <em>little tiny pieces.</em></p>
 <p><strong>Hippies with magic, alright? Easy.</strong></p>
 <p>Great with animals too — can have <strong>animal companions who grow in strength with you.</strong> With time and training, they can even <strong><em>shapeshift into animals</em></strong> (limited at first, but at higher levels you&#39;re <em>basically a full-time bear hashtag band names)</em></p>
 <p>At higher levels, can specialise by becoming in tune with a particular aspect of nature i.e <strong>Druid of the Flame, Druid of the Earth,</strong> etc.</p>
 <h2>Fighter</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xeijdJjVX_bbegqH8ruKCg.jpeg" alt=""Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I've rolled a 2""></p>
+<p>![&quot;Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I&#39;ve rolled a 2&quot;](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xeijdJjVX_bbegqH8ruKCg.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xeijdJjVX_bbegqH8ruKCg.jpeg</a> &quot;&quot;Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I&#39;ve rolled a 2&quot;&quot;)</p>
 <p><strong>Don&#39;t let the name fool you.</strong> Fighter may be the &quot;generic&quot; fighting class, but there&#39;s a <em>whole lot of wiggle room.</em> Fighting includes an entire world of ways to cause pain to your enemies, and you can explore that world at your leisure.</p>
 <p><strong><em>Straight up the best combat prowess in the game.</em></strong> Their damage output and defence is 2nd only to a raging Barbarian and a magic&#39;d Paladin respectively, but is much more consistent than either of those.</p>
 <p><strong>Very effective in all forms of combat</strong>, whether it&#39;s a sword, axe, crossbow, staff, or even their fists.</p>
 <p>Plus, super adaptable play style over time. You wanna wave swords around? <strong>Sick.</strong> Crossbows more your thing? <strong>No problem.</strong> How about walking around on stilts that have pointy ends, and then kicking people, until you&#39;re walking around on a kebab of bad guys? <strong>That sounds insane but I like your enthusiasm.</strong></p>
 <h2>Monk</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*F-OQsE2eES6pFLKbvGvPvg.jpeg" alt="Monks - the class for that one anime loving friend you've convinced to give D&D a try"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*F-OQsE2eES6pFLKbvGvPvg.jpeg" alt="Monks - the class for that one anime loving friend you've convinced to give D&D a try">
+  <figcaption>Monks - the class for that one anime loving friend you've convinced to give D&D a try</figcaption>
+</figure></p>
 <p>Agile. Martial arts. Resistant to magic. <strong>Think magic karate.</strong></p>
 <p>Can focus their inner <em>ki</em> to perform super-human feats of strength, endurance, agility, and more. We&#39;re talking <strong>arrow catching, cloud-dancing, fists-of-fury badassery.</strong></p>
 <p><strong>Tl;dr: hits harder with their fists than most do with their swords.</strong></p>
 <p>Can specialise technique into <strong><em>open hand</em></strong> (kung fu master), <strong><em>shadow monk</em></strong> (ninja) or <strong><em>monk of the four elements</em></strong> (like benders off Avatar, can control the elements with their <em>ki</em>)</p>
 <p><strong>Yes, weeaboo, this is the class for you.</strong></p>
 <h2>Paladin</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WBHuBfBts5jWWlW9k_FO0g.jpeg" alt="Judge Dredd is a great example of a Paladin, and he is a walking, talking "being good doesn't mean being nice""></p>
+<p>![Judge Dredd is a great example of a Paladin, and he is a walking, talking &quot;being good doesn&#39;t mean being nice&quot;](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WBHuBfBts5jWWlW9k_FO0g.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WBHuBfBts5jWWlW9k_FO0g.jpeg</a> &quot;Judge Dredd is a great example of a Paladin, and he is a walking, talking &quot;being good doesn&#39;t mean being nice&quot;&quot;)</p>
 <p>Ahh, Paladins. 2 drops of a <strong><em>warrior</em></strong>, 1 sprinkle of a <strong><em>guardian</em></strong>, and just a pinch of <strong><em>&quot;yeah, they&#39;re absolutely no fun at parties&quot;</em></strong><em>.</em></p>
 <p>Paladins are driven by <strong>faith</strong> and a <strong>core, unshakeable belief</strong>. In <em>justice</em>. In <em>fairness</em>. In the <em>power of good</em>. Think of them as fighters, but with a <strong>fundamental, unbreakable duty to good to uphold.</strong> Think of them as <strong><em>holy knights.</em></strong></p>
 <p>The faith and belief in that duty is what gives a Paladin her power. How do they differ from fighters in practical terms? Much more focused around <strong><em>defence</em></strong>, some <strong><em>low level magic</em></strong> thanks to their <em>divine duty.</em> At higher levels, can take <strong><em>sacred oaths</em></strong> to gain even more divine power.</p>
 <h2>Ranger</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rV97JhNivaTBEYGtGuPkwg.jpeg" alt="Ranger is just a posh word for "lives in a hut in the woods" FYI"></p>
+<p>![Ranger is just a posh word for &quot;lives in a hut in the woods&quot; FYI](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rV97JhNivaTBEYGtGuPkwg.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rV97JhNivaTBEYGtGuPkwg.jpeg</a> &quot;Ranger is just a posh word for &quot;lives in a hut in the woods&quot; FYI&quot;)</p>
 <p><strong>&quot;Woodland fighter&quot;.</strong> Hunters, trackers, people of the wild. Excellent survival skills, master of tracking, living off the land, forestry, etc.</p>
 <p>Get to choose a <strong>favoured target</strong>, i.e the thing they like to hunt and kill most of all. Plus, with time, can develop into specialist fighting skills, such as <strong>archery mastery</strong>, <strong>duel wielding</strong> and <strong>duelling.</strong></p>
 <p>At higher levels, can specialise into either <strong>Hunter</strong> or <strong>Beastmaster</strong> archetypes. I&#39;ll leave you to work out what those mean. <em>Spoiler alert:</em> <strong><em>really good at killing</em></strong><em>, or</em> <strong><em>pets</em></strong><em>.</em></p>
 <h2>Rogue</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*_uCg2xDqN3rmCT71-36-Yg.jpeg" alt=""Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah""></p>
+<p>![&quot;Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah&quot;](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*_uCg2xDqN3rmCT71-36-Yg.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*_uCg2xDqN3rmCT71-36-Yg.jpeg</a> &quot;&quot;Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah&quot;&quot;)</p>
 <p><strong>Isn&#39;t straight, fair combat so utterly dull?</strong></p>
 <p>Sneaking, charming, fighting. Rogues can get out of any tight situation with either their <strong>lock-picks</strong> or their <strong>silver tongue.</strong></p>
 <p>Rogue covers a wide spectrum: from <strong>smugglers</strong> to <strong>thieves</strong>, Rogues tackle problems with their <strong>wit</strong>, <strong>charisma</strong>, <strong>sleight of hand</strong> and a <strong>tendency to break the rules.</strong></p>
 <p>At higher levels, can specialise further down the <em>sneaky sneaky</em> path, becoming <strong><em>Thieves</em></strong>, or more down the <em>murder murder</em> path, becoming <strong><em>Assassins.</em></strong></p>
 <h2>Sorcerer</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*yQHXdx74j7Vg1Ux1vkR3kw.jpeg" alt="I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*yQHXdx74j7Vg1Ux1vkR3kw.jpeg" alt="I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?">
+  <figcaption>I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?</figcaption>
+</figure></p>
 <p>Sorcerers make magic the same way poets make poems — <strong>natural talent, perfected by practice.</strong></p>
 <p>Where as a wizard relies on their tomes of knowledge, to a sorcerer, magic is <strong>genetic muscle memory.</strong></p>
 <p>Get access to less spells in total, but can use them <strong>more times per day.</strong> Really good at <strong>adjusting their magic to what the situation requires.</strong></p>
 <p>Can decide <em>where</em> the magic in your bloodline comes from, and different backgrounds grant <strong>different powers and benefits.</strong></p>
 <h2>Warlock</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7HaDfy30cmZVxKDl-L8kUg.jpeg" alt=""Yeah, I thought about it, and I'm gonna play a Warlock" he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans."></p>
+<p>![&quot;Yeah, I thought about it, and I&#39;m gonna play a Warlock&quot; he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans.](<a href="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7HaDfy30cmZVxKDl-L8kUg.jpeg">https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7HaDfy30cmZVxKDl-L8kUg.jpeg</a> &quot;&quot;Yeah, I thought about it, and I&#39;m gonna play a Warlock&quot; he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans.&quot;)</p>
 <p>Wanna cast spells, but you <em>weren&#39;t born with natural magical gifts</em>, and <em>can&#39;t be bothered to spend years of your life studying</em>?</p>
 <p><strong>Easy. <em>Sell your soul.</em></strong> Warlocks are mortals who&#39;ve made deals with demons, devils and other evil entities to be granted <strong><em>dark powers</em></strong>. The relationship to their patron can be a follower to god basis, slave to master, etc. depending on how you wanna play the character. Perhaps you made a pact with an Elder God to be granted powers? <em>Oooh, Cthulu&#39;s Bitch could be fun to play as!</em></p>
 <p>Is granted <strong>magic</strong> and <strong>special powers</strong> from their dark patron — the spells and powers depend on the specific dark patron. The spells they get are few in number, but they can cast them over and over. Other powers given to them can be things like seeing in the dark, speaking any language, etc.</p>
 <h2>Wizard</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*UceijLmBx1qtgH5X7ivlJQ.jpeg" alt="God I love Hocus Pocus"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*UceijLmBx1qtgH5X7ivlJQ.jpeg" alt="God I love Hocus Pocus">
+  <figcaption>God I love Hocus Pocus</figcaption>
+</figure></p>
 <p><strong><em>Thanks to Harry Potter, probably the one class I don&#39;t have to explain.</em></strong></p>
 <p>Everyone knows what wizards are. <strong>Old. Wise. Magical.</strong> Unlike a sorcerer, <strong>their power comes through books and knowledge.</strong></p>
 <p>Have access to a <strong><em>huge</em> number of spells</strong> (<em>the most in the game by far</em>), but <strong>can only use a limited number of them per day</strong> before they need to rest and meditate, and have to <strong>prepare the spells before hand.</strong></p>

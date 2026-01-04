@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>D&D 5E Spellcasting Rules Explained In A Way That Actually Makes F**king Sense - TOMG DOT COOL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,6 +28,22 @@
         const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
         progressBar.style.width = progress + '%';
       });
+
+      // Make images clickable to open full size in new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('article img').forEach(img => {
+          if (img.closest('a')) return; // Skip if already inside a link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.target = '_blank';
+          link.className = 'image-link';
+          // If image is in a figure, wrap the figure; otherwise wrap the image
+          const figure = img.closest('figure');
+          const target = figure || img;
+          target.parentElement.insertBefore(link, target);
+          link.appendChild(target);
+        });
+      });
     </script>
     <main>
       <div class="container">
@@ -39,12 +56,12 @@
           <blockquote>
 <p>&quot;What is a Spell Slot? Spells have levels, right? Are they the same as Spell Slot levels? How many spells do I know? Do I have to prepare spells? <strong>What the actual f</strong>k is going on?**&quot;</p>
 </blockquote>
-<p><em>Author Note: Oh man, this article is nearly two years old and still being found! As of 19/01/2020 I&#39;ve made some minor amends — mostly typos, some minor rule corrections (the irony of this article having rules errors in it is not lost on me, but</em> <strong><em>does</em></strong> <em>highlight the need for itself) and addressing some reader comments. Thanks to all for reading and sharing. You can find more of my work</em> <a href="https://thunderchild15.itch.io/"><em>on my Itch.io page</em></a><em>, or</em> <a href="https://twitter.com/tmcgry"><em>follow me on Twitter</em></a><em>.</em></p>
+<p><em>Author Note: Oh man, this article is nearly two years old and still being found! As of 19/01/2020 I&#39;ve made some minor amends — mostly typos, some minor rule corrections (the irony of this article having rules errors in it is not lost on me, but</em> <strong><em>does</em></strong> <em>highlight the need for itself) and addressing some reader comments. Thanks to all for reading and sharing. You can find more of my work</em> <a href="https://thunderchild15.itch.io/"><em>on my Itch.io page</em></a><em>, or</em> <a href="https://bsky.app/profile/tombola.bsky.social"><em>follow me on Bluesky</em></a><em>.</em></p>
 <h2>If there is one thing that crops up all the time with new people learning D&amp;D, it&#39;s that the rules around spell casting are just super hard to &quot;get&quot;.</h2>
 <p>It&#39;s great that different classes that cast magic do so in different ways, as it allows for an awesome variety in both flavour and mechanics. But hot <em>damn</em> the PHB&#39;s rules for magic are spread just a touch all over the place, and so I seem to spend my entire life explaining the rules of magic to new players.</p>
 <h3><strong>So, lets explain it once and for all. Step by step, with examples.</strong></h3>
 <p>I&#39;m gonna start with the rules that apply to <em>all</em> classes, and get more specific from there. So, Spell Slots. Let&#39;s do this.</p>
-<p><img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*as3I-Kfj5EIP3Mqw6MWpUg.jpeg" alt=""I roll to make a tiny water ball""></p>
+<p>![&quot;I roll to make a tiny water ball&quot;](<a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*as3I-Kfj5EIP3Mqw6MWpUg.jpeg">https://miro.medium.com/v2/resize:fit:2000/format:webp/1*as3I-Kfj5EIP3Mqw6MWpUg.jpeg</a> &quot;&quot;I roll to make a tiny water ball&quot;&quot;)</p>
 <h2>&quot;First and foremost; the f**k is a Spell Slot?&quot;</h2>
 <p>A Spell Slot is D&amp;D 5E&#39;s mechanism <em>through</em> which a spell is cast. Think of a given Spell Slot as being like a barrel of a revolver — <strong>every time you cast a spell, you &quot;use up&quot; a Spell Slot</strong>, and you (usually) <strong>get all your Spell Slots back every time you take a Long Rest.</strong> Each class gets a number of Spells Slots to use per day.</p>
 <p><strong>Both spells and Spell Slots have levels.</strong> This is going to be a major point of confusion, so read on carefully! When it comes time to cast a spell, you <strong>use up a Spell Slot that is the same level as the spell <em>or higher</em>.</strong></p>
@@ -60,7 +77,7 @@
 <p>Every class has a number of Spell Slots per day based on their level. For example, a 4th level Druid has four 1st level Spell Slots, and two 2nd level Spell Slots. The more Spell Slots, the more spells you can cast before needing to rest and recover your expended Spell Slots.</p>
 <p>Finally, <em>finally</em>, one last thing to note — characters also have levels. I know you know this. But, and say it out loud with me; <strong>&quot;my character level is NOT my spell level or Spell Slot level&quot;.</strong> The designers of D&amp;D have a <em>serious</em> problem when it comes to the word &quot;level&quot;, so I wanted to clear that up before we go on.</p>
 <p>OK, everyone understand Spell Slots? <em>Sick.</em> Let&#39;s move on — knowing spells.</p>
-<p><img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wb6BoBAVUwgHr7Wco0e2zg.jpeg" alt=""I'm not saying glowing eyes are always a bad sign, I'm saying they're usually a bad sign" — anyone who has ever fought a Sorcerer"></p>
+<p>![&quot;I&#39;m not saying glowing eyes are always a bad sign, I&#39;m saying they&#39;re usually a bad sign&quot; — anyone who has ever fought a Sorcerer](<a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wb6BoBAVUwgHr7Wco0e2zg.jpeg">https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wb6BoBAVUwgHr7Wco0e2zg.jpeg</a> &quot;&quot;I&#39;m not saying glowing eyes are always a bad sign, I&#39;m saying they&#39;re usually a bad sign&quot; — anyone who has ever fought a Sorcerer&quot;)</p>
 <h2>&quot;How many spells do I know?&quot;</h2>
 <p><em>It depends.</em> Some classes know all of their spells. They don&#39;t have any concept of having to learn new spells. A class like this is the Druid — a Druid never needs to actively learn <em>new</em> spells. When it comes time for these classes to prepare (more on this soon) or cast their spells, <strong>the entire pool of their class spells is available for them to work with.</strong></p>
 <p>On the other hand, other classes <em>do</em> need to explicitly learn new spells. An example of this is a Wizard — Wizard&#39;s have their spellbook, and they can only work with spells that they know. Another example would be the Sorcerer — though they don&#39;t have a spellbook, they <em>do</em> have a limited number of spells that they know. When it comes time for these classes to prepare or cast their spells, <strong>they work from this list of known spells, instead of all their class spells.</strong></p>
@@ -96,7 +113,7 @@
 </ul>
 <p>Etc, etc. Consult your Player&#39;s Hand Book — now that you know the terminology and how Spell Slots work, hopefully it should make more sense.</p>
 <p><strong><em>&quot;But…!&quot;, I hear you cry, &quot;my class page says stuff about preparing spells?!&quot;</em></strong></p>
-<p><img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vFSpP_wmxS_6ONGtzZQZRQ.jpeg" alt=""Oh for fuc- Kev, dude, the invite said 'smart casual', what the fuck?""></p>
+<p>![&quot;Oh for fuc- Kev, dude, the invite said &#39;smart casual&#39;, what the fuck?&quot;](<a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vFSpP_wmxS_6ONGtzZQZRQ.jpeg">https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vFSpP_wmxS_6ONGtzZQZRQ.jpeg</a> &quot;&quot;Oh for fuc- Kev, dude, the invite said &#39;smart casual&#39;, what the fuck?&quot;&quot;)</p>
 <h2>&quot;So what is this &#39;preparing&#39; spells nonsense?&quot;</h2>
 <p>So, you&#39;ve got the spells that you know, and you&#39;ve got Spell Slots through which to cast them. What does preparation have to do with any of this?</p>
 <p><strong>Many classes need to <em>prepare their spells</em> before they actually cast them.</strong> This means choosing Spells from your available Spells and &quot;placing the spells into your mind&quot;, ready for casting.</p>
@@ -139,7 +156,10 @@
 <li>Clerics prepare spells but <em>don&#39;t</em> learn spells. They have access to all the Cleric spells when choosing their day&#39;s spells to prepare.</li>
 <li>Sorcerers learn spells but <em>don&#39;t</em> prepare spells. As long as a Sorcerer has the Spell Slots available, they can cast any spell they know, whenever.</li>
 </ul>
-<p><img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*MyEB8WOQZtlqfnC8t4u3VQ.jpeg" alt="Colour coordination taken to an extreme level"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*MyEB8WOQZtlqfnC8t4u3VQ.jpeg" alt="Colour coordination taken to an extreme level">
+  <figcaption>Colour coordination taken to an extreme level</figcaption>
+</figure></p>
 <h2>&quot;Wait, I&#39;m playing as a Warlock, and it&#39;s confusing as heck!&quot;</h2>
 <p>Yep, you&#39;re not wrong.</p>
 <p>It&#39;s out of the scope of this article to deep dive into every class, but I want to finally cover off the core difference between Warlocks and other spell casters. It seems simple, but has tripped up literally every new player I&#39;ve ever played with. Here goes:</p>

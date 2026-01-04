@@ -15,7 +15,7 @@ Are you a raging warrior, **_who attacks recklessly and without thought?_** Perh
 
 ## Barbarian
 
-![You would though, wouldn't you. Oh yes.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*8UqiwrGRm-36Ke0iYSyYFw.jpeg)
+![You would though, wouldn't you. Oh yes.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*8UqiwrGRm-36Ke0iYSyYFw.jpeg "You would though, wouldn't you. Oh yes.")
 
 _It's in the name, people._
 
@@ -27,7 +27,7 @@ High risk/reward class — you **do lots of damage**, but you **wear little armo
 
 ## Bard
 
-![Bards have long been considered a "joke", or at least "not be taken seriously". Can someone explain to me whats not serious about making people explode with a rad mandolin solo?](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*4HYfG_2R5yEhH5yV84VE4w.jpeg)
+![Bards have long been considered a "joke", or at least "not be taken seriously". Can someone explain to me whats not serious about making people explode with a rad mandolin solo?](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*4HYfG_2R5yEhH5yV84VE4w.jpeg "Bards have long been considered a "joke", or at least "not be taken seriously". Can someone explain to me whats not serious about making people explode with a rad mandolin solo?")
 
 Charismatic, persuasive, manipulative, inspiring. **Bards wield** **songs, music and poetry** **like others wield swords**. Good support class, **jack of all trades**. Can fight a bit, heal a bit, do some spells, sneak around, but isn't as good at any one of those single things as a Fighter, Wizard or Rogue.
 
@@ -39,7 +39,7 @@ Look, what I'm saying is, can you imagine a whole party made out of _just bards?
 
 ## Cleric
 
-![Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*0nZCON_0XXE_MOSQL01oHQ.jpeg)
+![Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*0nZCON_0XXE_MOSQL01oHQ.jpeg "Bones may be the best depiction of a Cleric in all pop culture. Constantly worried about everyone's health, first-aid'ing people all over the place, and isn't scared to get his hands dirty. What a champ.")
 
 Without a doubt, the best support class in the game. A man of the cloth, whose main concern is **keeping his friends alive as best he can**.
 
@@ -51,7 +51,7 @@ Can also choose which god or "aspect of nature" you want to be a priest _of_ —
 
 ## Druid
 
-!["I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins" — Druid players](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7fXc7hCYKdm87XyDflXY1A.jpeg)
+!["I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins" — Druid players](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7fXc7hCYKdm87XyDflXY1A.jpeg ""I like the idea of magic, but I vote green and enjoy that I have 19 recycle bins" — Druid players")
 
 Spellcasters who are one with nature. Can channel the **powers of nature, wildlife, the trees, rivers and earth** to help their friends or smash their enemies to _little tiny pieces._
 
@@ -63,7 +63,7 @@ At higher levels, can specialise by becoming in tune with a particular aspect of
 
 ## Fighter
 
-!["Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I've rolled a 2"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xeijdJjVX_bbegqH8ruKCg.jpeg)
+!["Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I've rolled a 2"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xeijdJjVX_bbegqH8ruKCg.jpeg ""Hello. My name is Inigo Montoya. You killed my father. Prepare to di- oh for fucks sake I've rolled a 2"")
 
 **Don't let the name fool you.** Fighter may be the "generic" fighting class, but there's a _whole lot of wiggle room._ Fighting includes an entire world of ways to cause pain to your enemies, and you can explore that world at your leisure.
 
@@ -75,7 +75,7 @@ Plus, super adaptable play style over time. You wanna wave swords around? **Sick
 
 ## Monk
 
-![Monks - the class for that one anime loving friend you've convinced to give D&D a try](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*F-OQsE2eES6pFLKbvGvPvg.jpeg)
+![Monks - the class for that one anime loving friend you've convinced to give D&D a try](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*F-OQsE2eES6pFLKbvGvPvg.jpeg "Monks - the class for that one anime loving friend you've convinced to give D&D a try")
 
 Agile. Martial arts. Resistant to magic. **Think magic karate.**
 
@@ -89,7 +89,7 @@ Can specialise technique into **_open hand_** (kung fu master), **_shadow monk_*
 
 ## Paladin
 
-![Judge Dredd is a great example of a Paladin, and he is a walking, talking "being good doesn't mean being nice"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WBHuBfBts5jWWlW9k_FO0g.jpeg)
+![Judge Dredd is a great example of a Paladin, and he is a walking, talking "being good doesn't mean being nice"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WBHuBfBts5jWWlW9k_FO0g.jpeg "Judge Dredd is a great example of a Paladin, and he is a walking, talking "being good doesn't mean being nice"")
 
 Ahh, Paladins. 2 drops of a **_warrior_**, 1 sprinkle of a **_guardian_**, and just a pinch of **_"yeah, they're absolutely no fun at parties"_**_._
 
@@ -99,7 +99,7 @@ The faith and belief in that duty is what gives a Paladin her power. How do they
 
 ## Ranger
 
-![Ranger is just a posh word for "lives in a hut in the woods" FYI](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rV97JhNivaTBEYGtGuPkwg.jpeg)
+![Ranger is just a posh word for "lives in a hut in the woods" FYI](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rV97JhNivaTBEYGtGuPkwg.jpeg "Ranger is just a posh word for "lives in a hut in the woods" FYI")
 
 **"Woodland fighter".** Hunters, trackers, people of the wild. Excellent survival skills, master of tracking, living off the land, forestry, etc.
 
@@ -109,7 +109,7 @@ At higher levels, can specialise into either **Hunter** or **Beastmaster** arche
 
 ## Rogue
 
-!["Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*_uCg2xDqN3rmCT71-36-Yg.jpeg)
+!["Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah"](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*_uCg2xDqN3rmCT71-36-Yg.jpeg ""Is there a class that lets me be a charming, handsome, rogueish type? What? Rogue? Oh right, yeah"")
 
 **Isn't straight, fair combat so utterly dull?**
 
@@ -121,7 +121,7 @@ At higher levels, can specialise further down the _sneaky sneaky_ path, becoming
 
 ## Sorcerer
 
-![I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*yQHXdx74j7Vg1Ux1vkR3kw.jpeg)
+![I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*yQHXdx74j7Vg1Ux1vkR3kw.jpeg "I mean, you could play your Sorcerer like Elsa, but why wouldn't you want to be a screaming, bloody incarnation of revenge?")
 
 Sorcerers make magic the same way poets make poems — **natural talent, perfected by practice.**
 
@@ -133,7 +133,7 @@ Can decide _where_ the magic in your bloodline comes from, and different backgro
 
 ## Warlock
 
-!["Yeah, I thought about it, and I'm gonna play a Warlock" he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7HaDfy30cmZVxKDl-L8kUg.jpeg)
+!["Yeah, I thought about it, and I'm gonna play a Warlock" he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans.](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*7HaDfy30cmZVxKDl-L8kUg.jpeg ""Yeah, I thought about it, and I'm gonna play a Warlock" he said, sweeping his dyed jet black hair out of his eyes and pulling up his skinny jeans.")
 
 Wanna cast spells, but you _weren't born with natural magical gifts_, and _can't be bothered to spend years of your life studying_?
 
@@ -143,7 +143,7 @@ Is granted **magic** and **special powers** from their dark patron — the spell
 
 ## Wizard
 
-![God I love Hocus Pocus](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*UceijLmBx1qtgH5X7ivlJQ.jpeg)
+![God I love Hocus Pocus](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*UceijLmBx1qtgH5X7ivlJQ.jpeg "God I love Hocus Pocus")
 
 **_Thanks to Harry Potter, probably the one class I don't have to explain._**
 

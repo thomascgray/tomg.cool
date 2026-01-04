@@ -23,7 +23,7 @@ This one is sort of obvious — I just prefer narrative RPGs. If I'm sitting in 
 
 The explaining of rules is actually a significant point in itself. Introducing people that have never played RPGs before, explaining "hey, we're gonna be pretend pirates fighting skeletons and stuff", for Buccaneers & Brine I explicitly want them buying into the fiction of the game — not thinking about nitty gritty boring details. We're telling a shared story; that is **_in and of itself_** the activity we're doing together. Focus on the fiction, not the numbers.
 
-![A Nervous Giant who's Always Drunk is, canonically, an author stand in](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pGnuJwIfHssxnQfEf6J2wQ.png)
+![A Nervous Giant who's Always Drunk is, canonically, an author stand in](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pGnuJwIfHssxnQfEf6J2wQ.png "A Nervous Giant who's Always Drunk is, canonically, an author stand in")
 
 So, character creation — I deliberately get the players to make **three simple choices (their temperament, appearance and cliché) instead of one, complex choice (a character class, for example).**
 
@@ -49,13 +49,13 @@ I guarantee you the player will say either "Yes, sounds amazing!" or "Are you in
 
 I'm wasn't interested in the complexity of different characters having different amounts of punishment they can take, so a straightforward track seemed the simplest.
 
-![Getting hurt makes you worse at doing things — this is true for the game as well](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0cIHkVXWIY-BSLlSsdLH0w.png)
+![Getting hurt makes you worse at doing things — this is true for the game as well](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0cIHkVXWIY-BSLlSsdLH0w.png "Getting hurt makes you worse at doing things — this is true for the game as well")
 
 It's immediately clear that there are "stages" to getting hurt, then I have some minor explanatory text telling the pirates that getting hurt will make their ability dice go down in size. This is clear and straight forward, and again — by having a Mechanical change (increase in Harm) cause a Fictional outcome (you're now worse at doing something) we're **further tying the players into the fiction of the game.**
 
 **Gear** is even simpler — by this point I'm banking on the players being on board with "the fiction comes first" style of game that Buccaneers & Brine is:
 
-![I beg you, please, choose the Bewitched Grappling Hook](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xBY0GF5fD2ZbViex3Qd5RA.png)
+![I beg you, please, choose the Bewitched Grappling Hook](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xBY0GF5fD2ZbViex3Qd5RA.png "I beg you, please, choose the Bewitched Grappling Hook")
 
 I give a bit of helper text for the weapons, mostly for the sake of the GM rulings (and to give some individuality to the choices) and then I pile on yet _more_ flavour with the "starting trinket". So by now each player is hopefully saying something like:
 
@@ -75,7 +75,7 @@ OK, there's a couple of points I want to cover here:
 
 ### Roll Two Dice, Count 4 Pluses, Check Against Ternary Results
 
-![Getting things done (on a 4 or more)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*59b_ZAEgWP6hUltxCHgOgQ.png)
+![Getting things done (on a 4 or more)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*59b_ZAEgWP6hUltxCHgOgQ.png "Getting things done (on a 4 or more)")
 
 The ternary output should be no surprise to anyone who's had experience with Dungeon World of course. It's a straight forward concept. Basically, telling the player "you succeed" or "you fail" is **boring**, and by giving a middle ground **("your plan worked, but…")** plus some flavour text (the "unexpected aftermath" etc. bits) I'm hoping that the GM and the players together will be sufficiently encouraged to [fail forward](https://www.google.com/search?q=rpg+failing+forward) and lead themselves into fun and interesting scenarios.
 
@@ -85,7 +85,7 @@ The actual decision to have them roll two dice ties into my next point, which is
 
 ### Abilities are dice instead of numbers
 
-![Pirates don't need Charisma, obviously](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cAPARuZWGOZdh0cJwMFkSQ.png)
+![Pirates don't need Charisma, obviously](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cAPARuZWGOZdh0cJwMFkSQ.png "Pirates don't need Charisma, obviously")
 
 This ties back into my "numbers are bad, actually" point from the start. Once the players know the two absolute fundamental mechanics:
 
@@ -110,7 +110,7 @@ The actual "roll two dice, count 4 pluses" isn't exactly original or massively i
 
 What's interesting is the next bit of rules:
 
-![Fictional outcomes = players bought into the story](https://miro.medium.com/v2/resize:fit:950/format:webp/1*L_vqAWzKtI-39XQcMw1n7w.png)
+![Fictional outcomes = players bought into the story](https://miro.medium.com/v2/resize:fit:950/format:webp/1*L_vqAWzKtI-39XQcMw1n7w.png "Fictional outcomes = players bought into the story")
 
 So what I'm doing here is packaging Mechanical and Fictional things into each result, basically for the sake of **adding interesting outcomes to the game.** A character may get 1 Pass on a check, but oh no — if you roll 1 on the Danger die, you still take some Harm _and_ you get an **in-game, narrative consequence to deal with too.**
 
@@ -122,7 +122,7 @@ _And, of course, once again shouting out to Dungeon World for the inspiration on
 
 The Ship that the characters sail around in has an entire section to itself, but is honestly extremely simple, and mostly there for flavour. Hey, it's a pirate game — I couldn't not talk about the ship.
 
-![I apologise in advance for your table making jokes about The Salty Maid](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HMTRst3O7JJoyqgh_ZN4oQ.png)
+![I apologise in advance for your table making jokes about The Salty Maid](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HMTRst3O7JJoyqgh_ZN4oQ.png "I apologise in advance for your table making jokes about The Salty Maid")
 
 Once again, the choices the players make here are entirely about adding to the flavour and the fiction.
 
@@ -130,7 +130,7 @@ What does "Unusual Sails" actually mean? **Who the hell knows** — the point is
 
 The next section mostly exists to cover possible questions from players, and pre-empt any awkward conversations about why there are only 3 or 4 pirates on a giant pirate ship.
 
-![Notice the lack of any mechanics regarding who's captain. Why? Because we don't need them! The ship belongs to everyone, don't worry about it](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Mrjoo_sZo-dUps9LarASeQ.png)
+![Notice the lack of any mechanics regarding who's captain. Why? Because we don't need them! The ship belongs to everyone, don't worry about it](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Mrjoo_sZo-dUps9LarASeQ.png "Notice the lack of any mechanics regarding who's captain. Why? Because we don't need them! The ship belongs to everyone, don't worry about it")
 
 Getting the players to roll for how many crew there are feels kind of nice; if they roll really low, then, where the hell are all the crew? **Who cares, it adds to the fiction!**
 
@@ -138,7 +138,7 @@ The 100 units of Treasure and 30 units of Cargo is mostly for the GM. Useful car
 
 The final section covers shenanigans that might actually happen during the sailing of the ship:
 
-!["and the like" gives this a lot of mileage](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*eDRIgpq5bzrcYvipdrd68A.png)
+!["and the like" gives this a lot of mileage](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*eDRIgpq5bzrcYvipdrd68A.png ""and the like" gives this a lot of mileage")
 
 I'm basically giving some examples of things that players might want to do (in case a player is stuck with "I don't know, what is there to do?")
 
@@ -164,7 +164,7 @@ I'm particularly proud of the **Crab Men Assassins** and the **Dread Inducing Mu
 
 _And that's that! If you made it to the end, thanks so much for reading. It was fun to look back at my own writing and rulings and think about why I made the decisions I did._
 
-_I massively appreciate any comments and feedback, and would love to hear all thoughts (good or bad!) about Buccaneers & Brine, and/or this article itself — reach out to me_ [_on Twitter_](https://twitter.com/tmcgry)_!_
+_I massively appreciate any comments and feedback, and would love to hear all thoughts (good or bad!) about Buccaneers & Brine, and/or this article itself — reach out to me_ [_on Bluesky_](https://bsky.app/profile/tombola.bsky.social)_!_
 
 _I hope it was an interesting dive, and for anyone thinking about writing their own game —_ **_do it! Do it now! Writing RPGs is the absolute best._**
 

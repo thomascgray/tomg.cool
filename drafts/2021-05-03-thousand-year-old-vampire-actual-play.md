@@ -390,4 +390,4 @@ And there we have it! I absolutely loved playing TYOV, the story has genuinely s
 
 Make sure to follow TOYV's author, Tim Hutchings, on Twitter at [@TimHutchingsFTW](https://twitter.com/TimHutchingsFTW). You can (and should!) buy TYOV at [https://thousandyearoldvampire.com/](https://thousandyearoldvampire.com/).
 
-You can follow me at [@tmcgry](https://twitter.com/tmcgry). I'm usually posting about code I write, RPGs I write and play, and any other random nonsense I feel a need to talk about.
+You can follow me at [@tombola.bsky.social](https://bsky.app/profile/tombola.bsky.social). I'm usually posting about code I write, RPGs I write and play, and any other random nonsense I feel a need to talk about.

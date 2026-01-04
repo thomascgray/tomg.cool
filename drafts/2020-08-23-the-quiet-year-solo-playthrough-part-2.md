@@ -77,4 +77,4 @@ Thanks for reading! I'm having a ton of fun with this, The Quiet Year is proving
 
 Summer next! I'm genuinely curious as to whats in store for our community as we head further into the year…
 
-_This was written and (badly) drawn by me, [@tmcgry](https://twitter.com/tmcgry)_
+_This was written and (badly) drawn by me, [@tombola.bsky.social](https://bsky.app/profile/tombola.bsky.social)_

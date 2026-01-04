@@ -7,7 +7,7 @@ mediumUrl: https://medium.com/@tom.c.gray/d-d-5e-spellcasting-rules-explained-in
 
 > "What is a Spell Slot? Spells have levels, right? Are they the same as Spell Slot levels? How many spells do I know? Do I have to prepare spells? **What the actual f**k is going on?**"
 
-_Author Note: Oh man, this article is nearly two years old and still being found! As of 19/01/2020 I've made some minor amends — mostly typos, some minor rule corrections (the irony of this article having rules errors in it is not lost on me, but_ **_does_** _highlight the need for itself) and addressing some reader comments. Thanks to all for reading and sharing. You can find more of my work_ [_on my Itch.io page_](https://thunderchild15.itch.io/)_, or_ [_follow me on Twitter_](https://twitter.com/tmcgry)_._
+_Author Note: Oh man, this article is nearly two years old and still being found! As of 19/01/2020 I've made some minor amends — mostly typos, some minor rule corrections (the irony of this article having rules errors in it is not lost on me, but_ **_does_** _highlight the need for itself) and addressing some reader comments. Thanks to all for reading and sharing. You can find more of my work_ [_on my Itch.io page_](https://thunderchild15.itch.io/)_, or_ [_follow me on Bluesky_](https://bsky.app/profile/tombola.bsky.social)_._
 
 ## If there is one thing that crops up all the time with new people learning D&D, it's that the rules around spell casting are just super hard to "get".
 
@@ -17,7 +17,7 @@ It's great that different classes that cast magic do so in different ways, as it
 
 I'm gonna start with the rules that apply to _all_ classes, and get more specific from there. So, Spell Slots. Let's do this.
 
-!["I roll to make a tiny water ball"](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*as3I-Kfj5EIP3Mqw6MWpUg.jpeg)
+!["I roll to make a tiny water ball"](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*as3I-Kfj5EIP3Mqw6MWpUg.jpeg ""I roll to make a tiny water ball"")
 
 ## "First and foremost; the f**k is a Spell Slot?"
 
@@ -40,7 +40,7 @@ Finally, _finally_, one last thing to note — characters also have levels. I kn
 
 OK, everyone understand Spell Slots? _Sick._ Let's move on — knowing spells.
 
-!["I'm not saying glowing eyes are always a bad sign, I'm saying they're usually a bad sign" — anyone who has ever fought a Sorcerer](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wb6BoBAVUwgHr7Wco0e2zg.jpeg)
+!["I'm not saying glowing eyes are always a bad sign, I'm saying they're usually a bad sign" — anyone who has ever fought a Sorcerer](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wb6BoBAVUwgHr7Wco0e2zg.jpeg ""I'm not saying glowing eyes are always a bad sign, I'm saying they're usually a bad sign" — anyone who has ever fought a Sorcerer")
 
 ## "How many spells do I know?"
 
@@ -87,7 +87,7 @@ Etc, etc. Consult your Player's Hand Book — now that you know the terminology 
 
 **_"But…!", I hear you cry, "my class page says stuff about preparing spells?!"_**
 
-!["Oh for fuc- Kev, dude, the invite said 'smart casual', what the fuck?"](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vFSpP_wmxS_6ONGtzZQZRQ.jpeg)
+!["Oh for fuc- Kev, dude, the invite said 'smart casual', what the fuck?"](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*vFSpP_wmxS_6ONGtzZQZRQ.jpeg ""Oh for fuc- Kev, dude, the invite said 'smart casual', what the fuck?"")
 
 ## "So what is this 'preparing' spells nonsense?"
 
@@ -139,7 +139,7 @@ Couple of things to note here:
 - Clerics prepare spells but _don't_ learn spells. They have access to all the Cleric spells when choosing their day's spells to prepare.
 - Sorcerers learn spells but _don't_ prepare spells. As long as a Sorcerer has the Spell Slots available, they can cast any spell they know, whenever.
 
-![Colour coordination taken to an extreme level](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*MyEB8WOQZtlqfnC8t4u3VQ.jpeg)
+![Colour coordination taken to an extreme level](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*MyEB8WOQZtlqfnC8t4u3VQ.jpeg "Colour coordination taken to an extreme level")
 
 ## "Wait, I'm playing as a Warlock, and it's confusing as heck!"
 

@@ -41,7 +41,7 @@ Enjoy the idea of being a cool outsider who can breathe fire? _Also you kinda wa
 
 ## Dwarves
 
-![Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rKyu2as9D9NAfPSk-4R7FQ.jpeg)
+![Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rKyu2as9D9NAfPSk-4R7FQ.jpeg "Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth")
 
 Standard fantasy Dwarves. See: **_Lord of the Rings, The Hobbit._**
 
@@ -51,7 +51,7 @@ Get bonuses to anything related to being "hardy" or stonework, earth, etc. Natur
 
 ## Elves
 
-![Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*1q-haJotDhn_NaRjLRxc0g.jpeg)
+![Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*1q-haJotDhn_NaRjLRxc0g.jpeg "Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee")
 
 Standard fantasy Elf. _See:_ **_every fantasy book ever._**
 
@@ -61,7 +61,7 @@ Quite magical, they get loads of bonuses to magic related saving throws and chec
 
 ## Half-Elves
 
-![Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*fN_PwPbxJPnwspK2wd8i3w.jpeg)
+![Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*fN_PwPbxJPnwspK2wd8i3w.jpeg "Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki")
 
 Like the idea of being a magical, bow-wielding, long-eared fae hippy? But you're a bit of a special snowflake and don't just wanna be a **_standard_** elf?
 
@@ -71,7 +71,7 @@ Get some benefits of being an elf, like limited darkvision, magic resistances, p
 
 ## Half-Orcs
 
-![Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WM2uAO-R9sc04zbk5Clobg.jpeg)
+![Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WM2uAO-R9sc04zbk5Clobg.jpeg "Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski")
 
 _"As you can tell by the fact I'm reading a beginners guide to D&D on the internet, I'm not very tough in real life. Can I be tough in the game?"_
 
@@ -81,7 +81,7 @@ Tons of bonuses relating to combat, speed, weapons, etc. too. Constantly battlin
 
 ## Tieflings
 
-![Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*qL46pKFmF2o3CVuRuBD3TA.jpeg)
+![Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*qL46pKFmF2o3CVuRuBD3TA.jpeg "Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown")
 
 Do you like the TV show _Supernatural_? Are you mad that your mates are making you play D&D instead of some kind of Supernatural RPG?
 
@@ -95,7 +95,7 @@ Make good warlocks and sorcerers, cus', you know, _evil magics!_
 
 ## Dragonborn
 
-![Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xH-QAz5Bzrx1S_Z8pDNLWQ.jpeg)
+![Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xH-QAz5Bzrx1S_Z8pDNLWQ.jpeg "Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues")
 
 _You like roleplaying? You into_ **_Eragon erotic fan-fiction?_**
 
@@ -107,7 +107,7 @@ Are devoted to their "birth clan", to the point of putting the clan before thems
 
 ## Gnomes
 
-![Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*chUpws_EQLWI3MfQx8f8PA.jpeg)
+![Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*chUpws_EQLWI3MfQx8f8PA.jpeg "Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic")
 
 Oh man. Gnomes. **I fuckin love Gnomes.** God-tier race.
 
@@ -117,7 +117,7 @@ Get bonuses to sneaking, some magic bonuses, some engineering/mechanical skill b
 
 ## Halflings
 
-![Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*2dTttj-whnK_oK555dJciQ.jpeg)
+![Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG](https://miro.medium.com/v2/resize:fit:4080/format:webp/1*2dTttj-whnK_oK555dJciQ.jpeg "Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG")
 
 Little people. Hobbits. Small-folk. You know, halflings.
 

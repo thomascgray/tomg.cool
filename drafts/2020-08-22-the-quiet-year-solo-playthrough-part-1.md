@@ -81,4 +81,4 @@ Thanks so much for reading! I'm going to be continuing this, so be sure to check
 
 [Part 2 is up!](/blog/2020-08-23-the-quiet-year-solo-playthrough-part-2.html)
 
-_This was written and (badly) drawn entirely by me, [@tmcgry](https://twitter.com/tmcgry)._
+_This was written and (badly) drawn entirely by me, [@tombola.bsky.social](https://bsky.app/profile/tombola.bsky.social)._

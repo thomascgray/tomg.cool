@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>So You Want To Play D&D: Step 1 - Intro and Races - TOMG DOT COOL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +27,22 @@
         const docHeight = document.documentElement.scrollHeight - window.innerHeight;
         const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
         progressBar.style.width = progress + '%';
+      });
+
+      // Make images clickable to open full size in new tab
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('article img').forEach(img => {
+          if (img.closest('a')) return; // Skip if already inside a link
+          const link = document.createElement('a');
+          link.href = img.src;
+          link.target = '_blank';
+          link.className = 'image-link';
+          // If image is in a figure, wrap the figure; otherwise wrap the image
+          const figure = img.closest('figure');
+          const target = figure || img;
+          target.parentElement.insertBefore(link, target);
+          link.appendChild(target);
+        });
       });
     </script>
     <main>
@@ -68,45 +85,69 @@
 <p>Enjoy the idea of talking down to people, being smug all the time, and pissing around with bows and arrows in the woods? <strong>Easy, an Elf.</strong></p>
 <p>Enjoy the idea of being a cool outsider who can breathe fire? <em>Also you kinda wanna fuck Eragon?</em> <strong>Awesome, you&#39;re a Dragonborn</strong></p>
 <h2>Dwarves</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rKyu2as9D9NAfPSk-4R7FQ.jpeg" alt="Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*rKyu2as9D9NAfPSk-4R7FQ.jpeg" alt="Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth">
+  <figcaption>Unknown, Dwarf Lord by Tze Kun Chin, Dwarf Guard by Daniel Zrom and Dwarven Boar Riders by Matthew Melmeth</figcaption>
+</figure></p>
 <p>Standard fantasy Dwarves. See: <strong><em>Lord of the Rings, The Hobbit.</em></strong></p>
 <p>Live to be around 400, hold grudges, slightly magical - <strong><em>like a Yorkshire grandad</em></strong>. Can see in the dark. <strong><em>Unlike a Yorkshire grandad.</em></strong></p>
 <p>Get bonuses to anything related to being &quot;hardy&quot; or stonework, earth, etc. Naturally tough, and get bonuses to saving throws against poison, poison based damage, that sort of thing. Basically, a super tough constitution and endurance. <strong><em>If in doubt, think Gimli.</em></strong></p>
 <h2>Elves</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*1q-haJotDhn_NaRjLRxc0g.jpeg" alt="Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*1q-haJotDhn_NaRjLRxc0g.jpeg" alt="Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee">
+  <figcaption>Elven Ranger by Oscar Ezquerra, Elf Ranger by Conor Burke and Elven Shock Troopers by Un Lee</figcaption>
+</figure></p>
 <p>Standard fantasy Elf. <em>See:</em> <strong><em>every fantasy book ever.</em></strong></p>
 <p>Maybe a little bit less &quot;ethereal&quot; than you&#39;ve seen in The Lord of the Rings, D&amp;D elves live to be around 700, are slightly shorter than humans, and can&#39;t stare into sinks to see the future. They are, however, real aloof, in touch with nature, enjoy mucking about with bows, etc. You get it. <strong><em>Hippies.</em></strong></p>
 <p>Quite magical, they get loads of bonuses to magic related saving throws and checks. Plus you get extraordinary sight and hearing. <strong><em>And you get to act super pompous</em>.</strong></p>
 <h2>Half-Elves</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*fN_PwPbxJPnwspK2wd8i3w.jpeg" alt="Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*fN_PwPbxJPnwspK2wd8i3w.jpeg" alt="Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki">
+  <figcaption>Half-Elf Witcher Wiki, Half-Elf Crowfall Wiki, Trey by Milica Jevtic and Gods & Kings: Endless War Wiki</figcaption>
+</figure></p>
 <p>Like the idea of being a magical, bow-wielding, long-eared fae hippy? But you&#39;re a bit of a special snowflake and don&#39;t just wanna be a <strong><em>standard</em></strong> elf?</p>
 <p><strong>Half human, half elf. Best of both worlds.</strong> But, accepted in neither. Social outcasts, looked at with fear by humans and pity by elves. Good base for an anti-hero character perhaps? <em>Oh, woe is me, no one likes me-</em> <strong><em>fuckin grow up.</em></strong></p>
 <p>Get some benefits of being an elf, like limited darkvision, magic resistances, plus some of your human benefits too (extra versatility, that sort of thing).</p>
 <h2>Half-Orcs</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WM2uAO-R9sc04zbk5Clobg.jpeg" alt="Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*WM2uAO-R9sc04zbk5Clobg.jpeg" alt="Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski">
+  <figcaption>Scartoof 2 by broutefin, Half Orc Warmage by Jinxiaodi and Blademaster by Greg Opalinski</figcaption>
+</figure></p>
 <p><em>&quot;As you can tell by the fact I&#39;m reading a beginners guide to D&amp;D on the internet, I&#39;m not very tough in real life. Can I be tough in the game?&quot;</em></p>
 <p><strong><em>I gotchu&#39; fam.</em></strong> Result of cross breeding between humans and orcs by either <em>dark magic</em> or... <em>natural means,</em> half-orcs are exactly what you&#39;d expect. <strong>Big, tough, strong, angry, and so beautifully ugly.</strong> Get big bonuses to strength and toughness-y things. Feared/hated by the other races though. <em>Can you imagine meeting one in a dark alley? You&#39;d be scared too.</em></p>
 <p>Tons of bonuses relating to combat, speed, weapons, etc. too. Constantly battling their &quot;inner orc&quot; to not lose control and <strong><em>fuck things up</em>.</strong></p>
 <h2>Tieflings</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*qL46pKFmF2o3CVuRuBD3TA.jpeg" alt="Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*qL46pKFmF2o3CVuRuBD3TA.jpeg" alt="Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown">
+  <figcaption>Dragon Age Wiki, Tiefling Warlock by Lin Romanov and Unknown</figcaption>
+</figure></p>
 <p>Do you like the TV show <em>Supernatural</em>? Are you mad that your mates are making you play D&amp;D instead of some kind of Supernatural RPG?</p>
 <p><strong>Hold your horses, check this shit out.</strong> Imagine a sexy human. Give it a tail, horns and red eyes. Dip it in paint. Give it a &quot;bad boy&quot; personality.</p>
 <p><strong><em>That&#39;s pretty much it.</em></strong> Tieflings are humans who, at some point in their ancestry, their bloodline was corrupted by <em>demons!</em> So they look kinda like demons. Easy.</p>
 <p>They get the kinds of bonuses you&#39;d expect, like seeing in the dark, fire resistance, natural cunning, etc. However, pretty much everyone except other Tieflings are either terrified of them, or hate them, or both. <strong><em>Good luck making it through town without trouble.</em></strong></p>
 <p>Make good warlocks and sorcerers, cus&#39;, you know, <em>evil magics!</em></p>
 <h2>Dragonborn</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xH-QAz5Bzrx1S_Z8pDNLWQ.jpeg" alt="Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*xH-QAz5Bzrx1S_Z8pDNLWQ.jpeg" alt="Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues">
+  <figcaption>Dragonborn Starpriest by Pacelic, Dragonborn Barbarian by Ted Ottosson and Dragonborn Bust by David Rodrigues</figcaption>
+</figure></p>
 <p><em>You like roleplaying? You into</em> <strong><em>Eragon erotic fan-fiction?</em></strong></p>
 <p><strong><em>Boy do I have the race for you.</em></strong> They&#39;re like dragons, but people, alright? Don&#39;t think too hard about it, you&#39;ll be fine.</p>
 <p>Scaly. No wings, but they <em>can</em> breathe fire/acid/poison, depending on their ancestry (once or twice a day at great effort).</p>
 <p>Are devoted to their &quot;birth clan&quot;, to the point of putting the clan before themselves. Think tribal, honourable people. Get some damage resistance bonuses thanks to your scales, <strong><em>hashtag that sweet natural armour</em></strong>. All the common folk will basically assume you&#39;re a monster, however.</p>
 <h2>Gnomes</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*chUpws_EQLWI3MfQx8f8PA.jpeg" alt="Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*chUpws_EQLWI3MfQx8f8PA.jpeg" alt="Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic">
+  <figcaption>Gnome Alchemist Engineer - Pathfinder RPG, Unknown and Gnome Barbarian by Marko Drazic</figcaption>
+</figure></p>
 <p>Oh man. Gnomes. <strong>I fuckin love Gnomes.</strong> God-tier race.</p>
 <p>Gnomes are cheery, silly and full of enthusiasm for all things. Think Dwarves, but even smaller, and with less <em>Yorkshire</em> inside them. But most importantly, they&#39;re <strong><em>inventive.</em></strong> Gnomes make master engineers, alchemists, chemists and the like.</p>
 <p>Get bonuses to sneaking, some magic bonuses, some engineering/mechanical skill bonuses too. Plus, they can make gunpowder and rifles and other wacky madness. <strong>Basically, Bilbo Baggins - another 12&quot; + Doc Brown</strong></p>
 <h2>Halflings</h2>
-<p><img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*2dTttj-whnK_oK555dJciQ.jpeg" alt="Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG"></p>
+<p><figure>
+  <img src="https://miro.medium.com/v2/resize:fit:4080/format:webp/1*2dTttj-whnK_oK555dJciQ.jpeg" alt="Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG">
+  <figcaption>Halfling Ranger - Pathfinder RPG, Halfling Alchemist - Pathfinder RPG and Halfling Rogue - Pathfinder RPG</figcaption>
+</figure></p>
 <p>Little people. Hobbits. Small-folk. You know, halflings.</p>
 <p>Somewhere between a Gnome and a Dwarf, basically exactly like hobbits from the movies. Not lazy/dumb though, <strong>halflings are smart, cunning, devious and <em>real</em> sneaky.</strong> Make excellent natural rogues, thieves, etc. Or bards, cus&#39; they love playing instruments and <strong><em>420 blazin&#39;</em></strong></p>
 <p>They are stout, and get bonuses to resistance and health. Also naturally brave, and not easily frightened. Are super lucky by nature, and get bonuses as such - <em>omg plz nerf</em></p>
