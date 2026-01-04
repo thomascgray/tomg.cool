@@ -161,7 +161,7 @@ function buildIndex(posts: PostMeta[], template: string): string {
   const content = `
         <div class="blog-index">
           <h1>tomg.cool's blog</h1>
-          <p class="blog-subtitle">random stuff i've seen fit to write something up about over the years</p>
+          <p class="blog-subtitle">random stuff i've seen fit to write something up about over the years. most of these are half baked ramblings - apologies in advance!</p>
           <hr />
           <ul class="post-list">${listHtml}
           </ul>
